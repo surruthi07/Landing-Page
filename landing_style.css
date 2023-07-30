@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:ital,wght@1,600&display=swap')
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 87%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#FFFFFF;
+}
+header
+{
+    position:absolute;
+    top: -20px;
+    left: 0;
+    width: 83%;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    top:-15px;
+    position: relative;
+    max-width: 100%;
+}
+header ul
+{
+    top: -40px;
+    position: relative;
+    display: flex;
+    left:110px;
+}
+header ul li
+{
+    list-style: none;
+    
+}
+header ul li a
+{
+    display:inline-block;
+    color:#470D21;
+    font-weight: 540;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.maincontent
+{
+    position:relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+.maincontent .textBox
+{
+    top: -145px;
+    left: -80px;
+    position: relative;
+    max-width: 600px;
+
+}
+.maincontent .textBox h3
+{
+    font-size: 2.5em;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+.maincontent .textBox p
+{
+    font-size: 2em;
+    margin-top: -30px;
+}
+.maincontent .textBox a
+{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 20px;
+    background: #7A3E3E;
+    color:#fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.maincontent .imgBox
+{
+    
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-top: -300px;
+}
+.picture
+{
+    position:absolute;
+    left:25%;
+    bottom: -50px;
+    transform: translateX(-70%);
+    display: flex;
+}
+.picture li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20x;
+    cursor: pointer;
+    transition: 0.5s    ;
+}
+.picture li:hover
+{
+    transform: translateY(-15px);
+}
+.picture li img {
+    max-width: 155px;
+}
+.socialmedia
+{
+    position:absolute;
+    top: 75%;
+    right: -65px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.socialmedia li
+{
+    list-style: none;
+}
+.socialmedia li img
+{
+    max-width: 35px;
+}
+.socialmedia li a
+{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+}
+.circle
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #482121;
+    clip-path: circle(700px at right 800px);
+}
+
